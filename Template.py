@@ -12,6 +12,21 @@ Output: return value and description
 """
 
 def main():
-    # code here
+   
+    # definite loop ex
+    for i in range(0,11,2):
+        print(i)
+    
+    #same behavior as indefinite or while loop
+    count=0
+    while (count <11):
+        print(count)
+        count=count+2 #or count+=2
+    print()
+
+    print(True and True)
+    print(False and False or True)
+    
+    
 
 main()    
